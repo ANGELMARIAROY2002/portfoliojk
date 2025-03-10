@@ -13,13 +13,30 @@ ul li{
 body, html {
     overflow-x: hidden;
 }
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+html {
+    scroll-behavior: smooth;
+}
+
 
 
 body {
-    background: linear-gradient(to right, #2c5b85, #24faf7); /* Blue gradient */
+    background: linear-gradient(to right, #9e8c03, #faf29d); /* Blue gradient */
     height: 100vh; /* Ensures full viewport height */
     margin: 0;
   }
+  .logo img {
+    width: 70px; /* Adjust size as needed */
+    height: auto;
+}
 
   .download-btn {
     display: inline-block;
@@ -48,7 +65,7 @@ body {
 }
 #contact{
     margin-top: 5px;
-    background-color: rgb(126, 145, 250);
+    background-color: wheat;
 }
 #contact p{
     color: green;
@@ -59,6 +76,7 @@ body {
     justify-content: center;
     align-items: center;
     margin-top: 3%;
+    background-color: wheat;
     
 }
 .icon, .up-arrow{
@@ -68,9 +86,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* border: 1px solid red ; */
     border-radius: 50%;
-    background-color: rgb(126, 145, 250);
+    background-color: rgb(255, 208, 121);
 }
 .icon i{
     color: black;
@@ -109,27 +126,32 @@ body {
     bottom: 0px;
 }
 #html_bar{
-    width: 95%;
+    width: 92%;
     background-color:blueviolet;
+    
 }
 #css_bar{
-    width: 92%;
+    width: 90%;
     background-color:blueviolet;
 }
 #js_bar{
-    width: 94%;
+    width: 90%;
     background-color:blueviolet;
 }
 #react_bar{
-    width: 96%;
+    width: 90%;
     background-color:blueviolet;
 }
 #tailwind_bar{
-    width: 95%;
+    width: 80%;
     background-color:blueviolet;
 }
 #bootstrap_bar{
     width: 90%;
+    background-color:blueviolet;
+}
+#reactjs_bar{
+    width: 75%;
     background-color:blueviolet;
 }
 @keyframes shake{
@@ -146,7 +168,7 @@ body {
 
 footer{
     padding: 3rem 0px;
-    background-color: rgb(126, 145, 250);
+    background-color: wheat;
 }
 footer p{
     font-size: 17px;
